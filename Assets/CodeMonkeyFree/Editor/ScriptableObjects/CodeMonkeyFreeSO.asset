@@ -14,39 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1745147662
+  lastShownTimestamp: 1745425409
   lastUpdateResponse:
-    version: 1.00
+    version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1745147662
+  checkedLastUpdateTimestamp: 1745425409
   lastQOTDResponse:
-    questionId: 163
-    questionText: What is the purpose of Unity Hub?
-    answerA: Provide a space for the community to interact
-    answerB: Manage different Unity versions and Projects
-    answerC: Dashboard for Unity services
-    answerD: 
+    questionId: 173
+    questionText: How much time per frame do you have in order to hit 60FPS?
+    answerA: 60ms
+    answerB: 33ms
+    answerC: 16ms
+    answerD: 6ms
     answerE: 
-  lastQotdTimestamp: 1745147662
+  lastQotdTimestamp: 1745425409
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleSyntyMar25.png
-    topText: Make ANY game with these awesome Assets! (96% OFF ENDS SOON!)
-    topLink: humblebundle
-    bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
-    bottomLink: dotscourse
-  lastDynamicHeaderTimestamp: 1745147662
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/assetStoreSpringSale25.png
+    topText: Spring Sale on the Asset Store, browse the Daily FLASH DEALS list to
+      see what will be 70% OFF!
+    topLink: unityassetstore
+    bottomText: Learn to get more WISHLISTS and SALES! (Spring Sale Discount Ends
+      SOON!)
+    bottomLink: howtomarketagame
+  lastDynamicHeaderTimestamp: 1745425409
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1745147662
+  websiteLatestMessageTimestamp: 1745425409
   websiteLatestVideos:
     videos:
-    - youTubeId: ZIg7VoD9ptI
-      title: The FUTURE of Unity in 2025 and BEYOND!
-    - youTubeId: W_XOZAWJF24
-      title: I made the MOST PROFITABLE Game as a Test!
-    - youTubeId: J0KMvH-yFmA
-      title: TOP 10 NEW Games, Made with Unity! (FEBRUARY 2025)
-    - youTubeId: DOSLOa7cnoE
-      title: I SHOULD have done this a long time ago, and YOU too!
-  websiteLatestVideosTimestamp: 1745147662
+    - youTubeId: 6IF6Sgoj4R4
+      title: What makes a Game LOW EFFORT?
+    - youTubeId: WMYY2GBjdcE
+      title: AWESOME Assets 70% OFF! (Make something FUN with the Spring Sale!)
+    - youTubeId: TZtbhCoff9Y
+      title: I found a MAGICAL GitHub project! (FREE Desktop in Unity!)
+    - youTubeId: aYKnB1OWuYA
+      title: TONS of AWESOME Assets up to 99% OFF! (Multiple Bundles and Spring Sales)
+  websiteLatestVideosTimestamp: 1745425409
