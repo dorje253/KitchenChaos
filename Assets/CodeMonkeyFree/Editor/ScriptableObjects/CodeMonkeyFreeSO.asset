@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1745601243
+  lastShownTimestamp: 1745688105
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1745601244
+  checkedLastUpdateTimestamp: 1745688105
   lastQOTDResponse:
     questionId: 174
     questionText: 'If I do:
@@ -32,7 +32,7 @@ MonoBehaviour:
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1745601244
+  lastQotdTimestamp: 1745688105
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/assetStoreSpringSale25.png
     topText: Spring Sale on the Asset Store, browse the Daily FLASH DEALS list to
@@ -41,11 +41,11 @@ MonoBehaviour:
     bottomText: Learn to get more WISHLISTS and SALES! (Spring Sale Discount Ends
       SOON!)
     bottomLink: howtomarketagame
-  lastDynamicHeaderTimestamp: 1745601244
+  lastDynamicHeaderTimestamp: 1745688105
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1745601244
+  websiteLatestMessageTimestamp: 1745688105
   websiteLatestVideos:
     videos:
     - youTubeId: YS6Jhj0nqgc
@@ -56,4 +56,4 @@ MonoBehaviour:
       title: AWESOME Assets 70% OFF! (Make something FUN with the Spring Sale!)
     - youTubeId: TZtbhCoff9Y
       title: I found a MAGICAL GitHub project! (FREE Desktop in Unity!)
-  websiteLatestVideosTimestamp: 1745601244
+  websiteLatestVideosTimestamp: 1745688105

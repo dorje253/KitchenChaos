@@ -314,6 +314,17 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &377558587 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3039157838611191211, guid: f240c4a3a1a76c84087903c31c37e37c, type: 3}
+  m_PrefabInstance: {fileID: 1591001633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d81ad8ce4d51264ab1195b029cac4cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,6 +825,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3039157838611191211, guid: f240c4a3a1a76c84087903c31c37e37c, type: 3}
+      propertyPath: tomatoPerfab
+      value: 
+      objectReference: {fileID: 4423312990208725339, guid: 3b15c822884ba7e4cae65cd8893a3022, type: 3}
+    - target: {fileID: 3039157838611191211, guid: f240c4a3a1a76c84087903c31c37e37c, type: 3}
+      propertyPath: kitchenObjectSo
+      value: 
+      objectReference: {fileID: 11400000, guid: dc6ede4e3661a1e439cbe6f25240bd52, type: 2}
     - target: {fileID: 3046408800671038437, guid: f240c4a3a1a76c84087903c31c37e37c, type: 3}
       propertyPath: m_Name
       value: ClearCounter (1)
@@ -984,6 +1003,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3039157838611191211, guid: f240c4a3a1a76c84087903c31c37e37c, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039157838611191211, guid: f240c4a3a1a76c84087903c31c37e37c, type: 3}
+      propertyPath: kitchenObjectSo
+      value: 
+      objectReference: {fileID: 11400000, guid: d90112eddf7885440ad3a2095f8a4922, type: 2}
+    - target: {fileID: 3039157838611191211, guid: f240c4a3a1a76c84087903c31c37e37c, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 377558587}
     - target: {fileID: 3046408800671038437, guid: f240c4a3a1a76c84087903c31c37e37c, type: 3}
       propertyPath: m_Name
       value: ClearCounter
