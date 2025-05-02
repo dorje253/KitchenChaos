@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1746114892
+  lastShownTimestamp: 1746201671
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1746114892
+  checkedLastUpdateTimestamp: 1746201671
   lastQOTDResponse:
     questionId: 176
     questionText: 'Let''s say I saved my game data in a text file and I am now trying
@@ -33,7 +33,7 @@ MonoBehaviour:
     answerC: Yes but healthAmount will be 0
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1746114892
+  lastQotdTimestamp: 1746201671
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/assetStoreSpringSale25.png
     topText: Spring Sale on the Asset Store, browse the Daily FLASH DEALS list to
@@ -42,11 +42,11 @@ MonoBehaviour:
     bottomText: Learn to get more WISHLISTS and SALES! (Spring Sale Discount Ends
       SOON!)
     bottomLink: howtomarketagame
-  lastDynamicHeaderTimestamp: 1746114892
+  lastDynamicHeaderTimestamp: 1746201671
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1746114892
+  websiteLatestMessageTimestamp: 1746201671
   websiteLatestVideos:
     videos:
     - youTubeId: IdsXZHcgHSU
@@ -57,4 +57,4 @@ MonoBehaviour:
       title: What makes a Game LOW EFFORT?
     - youTubeId: WMYY2GBjdcE
       title: AWESOME Assets 70% OFF! (Make something FUN with the Spring Sale!)
-  websiteLatestVideosTimestamp: 1746114892
+  websiteLatestVideosTimestamp: 1746201671

@@ -113,7 +113,7 @@ public class StoveCounter : BaseCounter, IHasProgress
         }else{
             // There is a KitchenObject here
             if(player.HasKitchenObject()){
-                // player is carrying something
+                // player is carrying Something
                 if (player.GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject))
                 {
                     // Player is holding a Plate
@@ -132,7 +132,6 @@ public class StoveCounter : BaseCounter, IHasProgress
                             progressNormalized = 0f
                         });
                     }
-
                 }
             }
             else{
