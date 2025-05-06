@@ -847,8 +847,54 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4994732665630154892, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4268460263732325307}
+    - targetCorrespondingSourceObject: {fileID: 4994732665630154892, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5444126122797944101}
   m_SourcePrefab: {fileID: 100100000, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
+--- !u!1 &2643634597344024693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4994732665630154892, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
+  m_PrefabInstance: {fileID: 7052858351301130489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4268460263732325307
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2643634597344024693}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 56e4bebf29c009b44b8aa8dd10de1814, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5444126122797944101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2643634597344024693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5584a8e5563bb314a9e4846b74cd14d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoveCounter: {fileID: 5913500839641987847}
 --- !u!224 &9131614608508836956 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2259340639929672869, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
