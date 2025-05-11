@@ -49,6 +49,10 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
     }
     
     private void Update(){
+        if (!IsOwner)
+        {
+            return;
+        } 
        HandleMovement();
        HandleInteraction();
 
@@ -84,6 +88,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
             SetSelectedCounter(null);
         }
 }
+
 
     private void HandleMovement(){
         Vector2  inputVector = GameInput.Instance.GetMovementVectorNormalized();
