@@ -4,6 +4,8 @@ public class SelectedCounterVisual : MonoBehaviour
 {
     [SerializeField] private BaseCounter baseCounter;
     [SerializeField] private GameObject[] visualGameObjectArray;
+    
+    
     private void Start(){
         if (Player.LocalInstance != null)
         {
