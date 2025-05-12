@@ -7,25 +7,55 @@ public class KitchenObject : NetworkBehaviour
     [SerializeField] private KitchenObjectSO  kitchenObjectSO;
     private  IKitchenObjectParent KitchenObjectParent;
 
+    private FollowTransform followTransform;
+
+
+    protected virtual void Awake()
+    {
+        followTransform = GetComponent<FollowTransform>();
+    }
 
     public KitchenObjectSO GetKitchenObjectSO(){
         return kitchenObjectSO;
     }
 
     public void SetKitchenObjectParent(IKitchenObjectParent KitchenObjectParent){
-        if(this.KitchenObjectParent != null){
+
+        SetKitchenObjectParentServerRpc(KitchenObjectParent.GetNetworkObject());
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void SetKitchenObjectParentServerRpc(NetworkObjectReference kitchenObjectParentNetworkObjectReference)
+    {
+        SetKitchenObjectParentClientRpc(kitchenObjectParentNetworkObjectReference);
+    }
+
+    [ClientRpc]
+    private void SetKitchenObjectParentClientRpc(NetworkObjectReference kitchenObjectParentNetworkObjectReference)
+    {
+ 
+
+        kitchenObjectParentNetworkObjectReference.TryGet(out NetworkObject kitchenObjectParentNetworkObject);
+        IKitchenObjectParent kitchenObjectParent = kitchenObjectParentNetworkObject.GetComponent<IKitchenObjectParent>();
+
+        if (this.KitchenObjectParent != null)
+        {
             this.KitchenObjectParent.ClearKitchenObject();
         }
-        this.KitchenObjectParent = KitchenObjectParent;
 
-        if(KitchenObjectParent.HasKitchenObject()){
-            Debug.LogError("IKitchenObjectParent alrady has a kitchenObject !");
+        this.KitchenObjectParent = kitchenObjectParent;
+
+
+        if (KitchenObjectParent.HasKitchenObject())
+        {
+            Debug.LogError("IKitchenObjectParent already has a KitchenObject!");
         }
-        
+
         KitchenObjectParent.SetKitchenObject(this);
 
-        //transform.parent = KitchenObjectParent.GetKitchenObjectFollowTransform();
-        //transform.localPosition = Vector3.zero;
+        followTransform.SetTargetTransform(KitchenObjectParent.GetKitchenObjectFollowTransform());
+
+
     }
 
     public IKitchenObjectParent GetKitchenObjectParent(){
