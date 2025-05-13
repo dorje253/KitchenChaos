@@ -92,6 +92,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1353634863863128456}
     m_Modifications:
     - target: {fileID: 267725516384795336, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
+      propertyPath: barImage
+      value: 
+      objectReference: {fileID: 5688765505838774302}
+    - target: {fileID: 267725516384795336, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
       propertyPath: cuttingCounter
       value: 
       objectReference: {fileID: 7666584240850082160}
@@ -188,6 +192,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
+--- !u!114 &5688765505838774302 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 866899733499005699, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
+  m_PrefabInstance: {fileID: 4824857824164393757}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &6750786954621196216 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2259340639929672869, guid: 9995caa34f1f2eb4c8e8ea1e65891550, type: 3}
@@ -388,6 +403,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9191501910756461878, guid: 7c67d23fb85d2aa41a8262ae302ff735, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 828699346
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -432,6 +451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a6b18f14897f1499319156c88ae3c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
   counterTopPoint: {fileID: 7046283135274391120}
   cuttingRecipeSOArray:
   - {fileID: 11400000, guid: f31a221d63a5b134d9dee917a800ca4a, type: 2}

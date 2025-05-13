@@ -1,10 +1,15 @@
-using UnityEngine;
 using System;
-public interface IHasProgress 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public interface IHasProgress
 {
-        
-    public event EventHandler<OnProgressChangeEventArgs> OnProgressChange;
-    public class OnProgressChangeEventArgs : EventArgs{
+
+
+    public event EventHandler<OnProgressChangedEventArgs> OnProgressChanged;
+    public class OnProgressChangedEventArgs : EventArgs
+    {
         public float progressNormalized;
     }
 

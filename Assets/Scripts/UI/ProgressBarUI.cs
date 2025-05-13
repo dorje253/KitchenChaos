@@ -1,37 +1,59 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ProgressBarUI : MonoBehaviour
 {
-    [SerializeField] private GameObject hasProgressGameObject;
-    [SerializeField] private Image barimage;
-    private IHasProgress hasProgess;
 
-    private void Start(){
-        hasProgess = hasProgressGameObject.GetComponent<IHasProgress>();
-        if(hasProgess == null){
-            Debug.Log("GameObject "+ hasProgressGameObject+ "doesn't have a component that implements IHasProgress!");
+
+    [SerializeField] private GameObject hasProgressGameObject;
+    [SerializeField] private Image barImage;
+
+
+    private IHasProgress hasProgress;
+
+
+    private void Start()
+    {
+        hasProgress = hasProgressGameObject.GetComponent<IHasProgress>();
+        if (hasProgress == null)
+        {
+            Debug.LogError("Game Object " + hasProgressGameObject + " does not have a component that implements IHasProgress!");
         }
-        hasProgess.OnProgressChange += HasProgess_OnProgressChanged;
-        barimage.fillAmount = 0f;
+
+        hasProgress.OnProgressChanged += HasProgress_OnProgressChanged;
+
+        barImage.fillAmount = 0f;
+
         Hide();
     }
 
-    private void HasProgess_OnProgressChanged(object sender, IHasProgress.OnProgressChangeEventArgs e){
-        barimage.fillAmount = e.progressNormalized;
-        if(e.progressNormalized == 0f ||  e.progressNormalized == 1f){
+    private void HasProgress_OnProgressChanged(object sender, IHasProgress.OnProgressChangedEventArgs e)
+    {
+       
+        barImage.fillAmount = e.progressNormalized;
+
+        if (e.progressNormalized == 0f || e.progressNormalized == 1f)
+        {
             Hide();
-        }else{
+        }
+        else
+        {
             Show();
         }
     }
 
-    private void Show(){
+    private void Show()
+    {
         gameObject.SetActive(true);
     }
 
-    private void Hide(){
+    private void Hide()
+    {
         gameObject.SetActive(false);
     }
+
+
 
 }
