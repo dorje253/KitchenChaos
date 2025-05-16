@@ -65,6 +65,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
        
     }
 
+
     private void NetworkManager_OnClientDisconnectCallback(ulong clientId)
     {
         if (clientId == OwnerClientId && HasKitchenObject())
