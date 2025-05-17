@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1747409290
+  lastShownTimestamp: 1747495872
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1747409290
+  checkedLastUpdateTimestamp: 1747495872
   lastQOTDResponse:
     questionId: 181
     questionText: Can you modify transform.forward directly to rotate a transform?
@@ -27,26 +27,26 @@ MonoBehaviour:
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1747409290
+  lastQotdTimestamp: 1747495872
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleMay252DGameAssets.png
     topText: HUGE bundle with literally 10,000+ 2D elements! 97% OFF!
     topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1747409290
+  lastDynamicHeaderTimestamp: 1747495872
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1747409290
+  websiteLatestMessageTimestamp: 1747495872
   websiteLatestVideos:
     videos:
+    - youTubeId: R-pqlx29MyE
+      title: TOP 10 FREE NEW Assets MAY 2025!
     - youTubeId: XbtsbS7EfWM
       title: Do Gamers care about AI?
     - youTubeId: n7DWC5wtXTQ
       title: TOP 10 NEW Games, Made with Unity! (APRIL 2025)
     - youTubeId: bl9pc7xaH9Q
       title: CHEAT SHEET for BOOSTING your GAMES!
-    - youTubeId: G9TfMVURn2U
-      title: Get FREE Awesome Assets EVERY WEEK! Do you know about this?
-  websiteLatestVideosTimestamp: 1747409290
+  websiteLatestVideosTimestamp: 1747495872
