@@ -16,7 +16,7 @@ public class LobbyMessageUI : MonoBehaviour
 
     private void Start()
     {
-        KitchenGameMultiplayer.Instance.OnFailedToJoinGame += KitchenGameManager_OnFailedToJoinGame;
+        KitchenGameMultiplayer.Instance.OnFailedToJoinGame += KitchenGameMultiplayer_OnFailedToJoinGame;
         KitchenGameLobby.Instance.OnCreateLobbyStarted += KitchenGameLobby_OnCreateLobbyStarted;
         KitchenGameLobby.Instance.OnCreateLobbyFailed += KitchenGameLobby_OnCreateLobbyFailed;
         KitchenGameLobby.Instance.OnJoinStarted += KitchenGameLobby_OnJoinStarted;
@@ -51,7 +51,7 @@ public class LobbyMessageUI : MonoBehaviour
         ShowMessage("Creating Lobby...");
     }
 
-    private void KitchenGameManager_OnFailedToJoinGame(object sender, System.EventArgs e)
+    private void KitchenGameMultiplayer_OnFailedToJoinGame(object sender, System.EventArgs e)
     {
         if (NetworkManager.Singleton.DisconnectReason == "")
         {
@@ -81,6 +81,11 @@ public class LobbyMessageUI : MonoBehaviour
 
     private void OnDestroy()
     {
-        KitchenGameMultiplayer.Instance.OnFailedToJoinGame -= KitchenGameManager_OnFailedToJoinGame;
+        KitchenGameMultiplayer.Instance.OnFailedToJoinGame -= KitchenGameMultiplayer_OnFailedToJoinGame; 
+        KitchenGameLobby.Instance.OnCreateLobbyStarted -= KitchenGameLobby_OnCreateLobbyStarted;
+        KitchenGameLobby.Instance.OnCreateLobbyFailed -= KitchenGameLobby_OnCreateLobbyFailed;
+        KitchenGameLobby.Instance.OnJoinStarted -= KitchenGameLobby_OnJoinStarted;
+        KitchenGameLobby.Instance.OnJoinFailed -= KitchenGameLobby_OnJoinFailed;
+        KitchenGameLobby.Instance.OnQuickJoinFailed -= KitchenGameLobby_OnQuickJoinFailed;
     }
 }
