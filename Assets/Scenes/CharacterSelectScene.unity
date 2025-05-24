@@ -620,6 +620,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6333148688465412257, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4734743890671386558, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
 --- !u!1 &216767657
 GameObject:
@@ -1329,6 +1332,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6333148688465412257, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4734743890671386558, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
 --- !u!1001 &590234259
 PrefabInstance:
@@ -1395,6 +1401,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6333148688465412257, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4734743890671386558, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
@@ -2019,7 +2028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 5194280213358965235}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &873901555
@@ -2272,7 +2281,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0, g: 1, b: 0.03529412, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3393,7 +3402,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0, g: 1, b: 0.03529412, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -4035,6 +4044,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2685732037875816495, guid: eb3bfa6ea2dfb804a98c44eefe12ac2c, type: 3}
   m_PrefabInstance: {fileID: 5194280213358965233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5194280213358965235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 626846436426026564, guid: eb3bfa6ea2dfb804a98c44eefe12ac2c, type: 3}
+  m_PrefabInstance: {fileID: 5194280213358965233}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8072806498474108848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4096,6 +4110,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6333148688465412257, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4734743890671386558, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 6750b0fc511ac954ca4127ec00983197, type: 3}
