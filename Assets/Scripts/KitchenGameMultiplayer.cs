@@ -13,6 +13,8 @@ public class KitchenGameMultiplayer : NetworkBehaviour
 
     public static KitchenGameMultiplayer Instance {  get; private set; }
 
+    public static bool playMultiplayer = true;
+
     public event EventHandler OnTryingToJoinGame;
     public event EventHandler OnFailedToJoinGame;
     public event EventHandler OnPlayerDataNetworkListChanged;
@@ -35,6 +37,23 @@ public class KitchenGameMultiplayer : NetworkBehaviour
         playerDataNetworkList = new NetworkList<PlayerData>();
         playerDataNetworkList.OnListChanged += PlayerDataNetworkList_OnListChanged;
     }
+
+    private void Start()
+    {
+        if (!playMultiplayer)
+        {
+            // Ensure Relay is not configured for singleplayer
+            var unityTransport = NetworkManager.Singleton.GetComponent<Unity.Netcode.Transports.UTP.UnityTransport>();
+            unityTransport.SetConnectionData("127.0.0.1", 7777); // Use loopback for local host
+
+            // Start host locally
+            StartHost();
+            Loader.LoadNetwork(Loader.Scene.GameScene);
+        }
+    }
+
+
+
 
     public string GetPlayerName()
     {
